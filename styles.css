@@ -173,6 +173,9 @@ button {
 
 .socials {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .social-container {
@@ -194,7 +197,7 @@ button {
 }
 
 .details h3 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-bottom: -0.2rem;
 }
 
