@@ -167,8 +167,27 @@ h3 {
 .socials-horizontal {
     width:100%;
 }
+
+.socials-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
 .container {
+    display:flex;
+    align-items: center;
     color: white;
-    width: 100%;
-    background-color:red;
+    font-weight: bold;
+    width: 90%;
+    border-radius: 30px;
+    padding: 1.3rem 1rem;
+    background: rgba(255,255,255, 0.15);
+}
+
+.container img {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.8rem;
 }
