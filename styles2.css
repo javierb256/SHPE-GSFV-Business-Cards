@@ -163,6 +163,18 @@ button {
     margin: 0 auto;
     padding: 0 50px;
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255, 0.15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 0px 32px rgba(0,0,0,0.15);
+    width: 88%;
+    padding:1rem 1.5rem;
+    border-radius: 20px;
+}
+
+.container h1, .container h2, .container p {
+    color: white;
 }
 
 .container img {
@@ -184,6 +196,8 @@ button {
   background-color: #f5f4f4;
   border-radius: 0.5rem;
   padding: 0.4rem;
+  background: rgba(255,255,255, 0.15);
+  color:white;
 }
 .social-container img {
   width: 32px;
@@ -199,11 +213,12 @@ button {
 .details h3 {
   font-size: 0.9rem;
   margin-bottom: -0.2rem;
+  print-color-adjust: white;
 }
 
 .details p {
   font-size: 0.8rem;
-  color: #7e7e7e;
+  color: white;
 }
 
 #bgvideo {
