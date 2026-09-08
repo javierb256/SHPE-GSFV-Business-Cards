@@ -135,26 +135,55 @@ body {
 
 h1 {
     color: gold;
+    font-family: Arial, 'Times New Roman', Times, serif
 }
 h2 {
     color: white;
 }
 h3 {
     color: gold;
+    font-family: Arial, 'Times New Roman', Times, serif
+}
+
+header {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.3rem;
+}
+
+.header > img {
+    width: 100%;
+    aspect-ratio: 16 / 5;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   bottom: -50px;
+   left: 20px;
+}
+
+main {
+    padding: 0 1rem;
 }
 
 .socials-horizontal {
     display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .pill {
     display:flex;
     align-items: center;
-    width: 180px;
-    background-color: rgb(58, 58, 58);
+    max-width: 200px;
+    background-color: rgb(30, 30, 30);
     color:white;
     font-weight: bold;
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 0.8rem;
     border-radius: 50px;
 }
 
@@ -166,6 +195,8 @@ h3 {
 
 .socials-horizontal {
     width:100%;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .socials-vertical {
@@ -191,3 +222,19 @@ h3 {
     height: 32px;
     margin-right: 0.8rem;
 }
+
+ .custom-button {
+        background: none;
+        width: 70%;
+        background-color: rgb(17, 115, 236);
+        color: white;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin-top:1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
