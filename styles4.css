@@ -130,7 +130,7 @@ fieldset {
 body {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background: linear-gradient(to top right, black 0%,rgb(85, 85, 85) 100%);
 }
 
 h1 {
