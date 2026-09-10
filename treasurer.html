@@ -65,13 +65,13 @@
         .getElementById("save-contact-btn")
         .addEventListener("click", function () {
           const vCardData = `BEGIN:VCARD
-            VERSION:3.0
-            FN: Felipe Contreras
-            ORG:SHPE GSFV
-            TITLE:Treasurer
-            EMAIL:treasurer@shpe-gsfv.org
-            URL:www.shpe-gsfv.org
-            End:VCARD`;
+VERSION:3.0
+FN: Felipe Contreras
+ORG:SHPE GSFV
+TITLE:Treasurer
+EMAIL:treasurer@shpe-gsfv.org
+URL:www.shpe-gsfv.org
+END:VCARD`;
 
           const blob = new Blob([vCardData], { type: "text/vcard" });
 
