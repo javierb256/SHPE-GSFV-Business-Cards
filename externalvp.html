@@ -60,23 +60,21 @@
    <script>
         document.getElementById('save-contact-btn').addEventListener('click', function() {
             const vCardData = 
-            `BEGIN:VCARD
-            VERSION:3.0
-            FN: Dominic Gallardo
-            ORG:SHPE GSFV
-            TITLE:President
-            TEL;TYPE=CELL:+1-555-123-4567
-            TEL;TYPE=WORK:+1-555-123-4567
-            EMAIL:president@shpe-gsfv.org
-            URL:www.shpe-gsfv.org
-            END:VCARD`;
+`BEGIN:VCARD
+VERSION:3.0
+FN:Sandra
+ORG:SHPE GSFV
+TITLE:External Vice President
+EMAIL:externalvp@shpe-gsfv.org
+URL:www.shpe-gsfv.org
+END:VCARD`;
 
             const blob = new Blob([vCardData], { type: 'text/vcard' });
 
             const url = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
-            link.download = 'Dominic_Gallardo.vcf';
+            link.download = 'Sandra.vcf';
             document.body.appendChild(link);
             link.click();
 
